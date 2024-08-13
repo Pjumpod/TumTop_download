@@ -39,3 +39,8 @@
 
 # Line ID
 Line ID : foolstop หรือ pjumpod 
+
+### v1.0.1 ####
+1. better look for the GUI buttons for MacOSx.
+2. fix cannot run the program if "user_secret_key" is missing.
+3. show/hide the api_key, author name and secret key button.
