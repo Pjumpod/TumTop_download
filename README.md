@@ -63,3 +63,7 @@ Line ID : foolstop หรือ pjumpod
     เหมาะกับสาย AI มีในชื่อไฟล์ จะมี prompt ติดมาบน ชื่อของไฟล์ภาพด้วย
 3. **แก้ไขให้สามารถฝัง metadata ซัพพอร์ตการส่งงานเว็บอื่นๆ** นอกเหนือจาก adobe stock 
       เช่นเว็บ shutterstock, freepik, depositphotos, 123rf, pixta, etc
+
+### v1.2.1 ####
+1. **Model ใหม่ของ openai 'chatgpt-4o-latest'** 
+2. แก้ปัญหาที่ description ไม่ขึ้นเมื่อในเว็บ depositphoto, 123rf
