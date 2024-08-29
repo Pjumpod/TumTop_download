@@ -45,3 +45,21 @@ Line ID : foolstop หรือ pjumpod
 1. better look for the GUI buttons for MacOSx.
 2. fix cannot run the program if "user_secret_key" is missing.
 3. show/hide the api_key, author name and secret key button.
+
+### v1.1.1 ####
+1. **แก้ algorithm เพื่อให้ราคาของ openai ถูกลงกว่าเวอร์ชั่นก่อนๆ และ เมื่อยิ่งรันภาพมากขึ้นในคราวเดียว ราคาจะยิ่งถูกลง**
+2. **สามารถเลือกจำนวน keywords เองได้** 
+3. **ลดค่าใช้จ่ายในการให้ Ai ค้นหา Category ให้กับภาพ**
+4. **แก้ไขให้สามารถขยายรูปภาพที่เป็นสี่เหลี่ยมจัสตุรัสได้**
+5. ปรับ prompt เพื่อลด ERROR จาก AI
+6. รูป output สามารถเลือกที่จะเปลี่ยนให้เป็น 300 dpi ได้ (beta function)
+7. Input ภาพได้ทั้ง JPG และ PNG
+8. ใช้งานใน MacOS ได้แบบไหลลื่นทั้ง Intel chip และ M chip
+9. สามารถขยายภาพได้สูงสุดมากถึง 4.5x ถ้าภาพ original มีขนาด 900-3000px โดย output จะได้ไฟล์ขนาด 4500px
+
+### v1.2.0 ####
+1. **เพิ่มตัวเลือก Gemini AI** สามารถใช้ทั้ง OPENAI และ GEMINI AI ได้ในแอพเดียว
+2. เพิ่มความสามารถในการอ่านชื่อไฟล์ของภาพ(filename) แล้วให้ AI ดึงคำในชื่อไฟล์มาเป็น keywords ได้ (แต่ต้องมีความเกี่ยวข้องกับภาพ)
+    เหมาะกับสาย AI มีในชื่อไฟล์ จะมี prompt ติดมาบน ชื่อของไฟล์ภาพด้วย
+3. **แก้ไขให้สามารถฝัง metadata ซัพพอร์ตการส่งงานเว็บอื่นๆ** นอกเหนือจาก adobe stock 
+      เช่นเว็บ shutterstock, freepik, depositphotos, 123rf, pixta, etc
