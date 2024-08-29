@@ -40,6 +40,7 @@
 # Line ID
 Line ID : foolstop หรือ pjumpod 
 
+สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ### v1.0.1 ####
 1. better look for the GUI buttons for MacOSx.
 2. fix cannot run the program if "user_secret_key" is missing.
