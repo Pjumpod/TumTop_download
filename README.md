@@ -131,3 +131,20 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 9. เช็คเวอชั่น เมื่อเปิด และ ปิดโปรแกรม
 10. เพิ่มลิ้งสำคัญๆ ด้านล่างโปรแกรม เช่นลิ้งขอ API_KEY ของ OPENAI และ GEMINI
 ---
+### v2.0.1 ###
+1. เพิ่ม model ใหม่ของ Gemini
+    - gemini-1.5-flash-latest
+    - gemini-1.5-flash-002 (gemini-1.5-flash-latest จะลิ้งมาที่โมเดลตัวนี้ประมาณ 8 ตุลา)
+    - gemini-1.5-flash-001 (gemini-1.5-flash-latest ตอนนี้ยังลิ้งมาที่โมเดลตัวนี้อยู่จนกว่าจะถึง 10 ตุลา และหลังจากนั้น ถ้าอยากใช้ model นี้ สามารถใช้ได้ในโปรแกรม TumTop)
+    - gemini-1.5-pro-latest
+    - gemini-1.5-pro-002 (gemini-1.5-pro-latest จะลิ้งมาที่โมเดลตัวนี้ประมาณ 8 ตุลา)
+    - gemini-1.5-pro-001 (gemini-1.5-pro-latest ตอนนี้ยังลิ้งมาที่โมเดลตัวนี้อยู่จนกว่าจะถึง 10 ตุลา และหลังจากนั้น ถ้าอยากใช้ model นี้ สามารถใช้ได้ในโปรแกรม TumTop)
+2. สามารถ แก้ไข Title และ Keyword ของรูปจากโปรแกรมได้เลย โปรแกรมจะแก้ไขทั้ง csv และฝังลงในรูปให้หลังแก้ไข
+3. มี function สำหรับ Template Title 
+    เช่น ตั้งไว้ว่า "**Vehicle of <AI> at night.**"
+    และ Title ที่ได้จาก AI เป็น "**This is a cat**"
+    โปรแกรมจะนำ "This is a cat" ไปแทน <AI> ใน template จะได้่ว่า Vehicle of **This is a cat** at night.
+4. สามารถตั้ง คำต้องห้ามได้  โดยมีผลทั้ง keywords และ title (ยังเป็น BETA อยู่สำหรับ Title)
+5. เพิ่มตัวนับพยัญชนะ ทั้ง Title และ description
+6. เพิ่มตัวนับ Keywords
+7. ปรับปรุง เพิ่มความเร็วของโปรแกรม.
