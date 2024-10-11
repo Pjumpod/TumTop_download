@@ -148,3 +148,24 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 5. เพิ่มตัวนับพยัญชนะ ทั้ง Title และ description
 6. เพิ่มตัวนับ Keywords
 7. ปรับปรุง เพิ่มความเร็วของโปรแกรม.
+---
+### v2.1.0 ###
+1. เพิ่ม Support สำหรับ VDO นามสกุล mp4 และ mov
+2. เพิ่ม Support สำหรับ Vector นามสกุล ai และฝัง metadata ให้ .ai ได้ด้วย
+3. สามารถฝัง metadata ให้ Vector นามสกุล svg ได้แล้ว
+4. เพิ่ม Gen Prompt สำหรับ MJ
+
+#### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
+
+|   |   CSV|  METADATA |   
+|---|---|---|
+| JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span>|   
+|  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |   
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> |
+| AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |
+| SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |
+| EPS | <span style="color:blue">อยู่ใน Roadmap</span>  |  <span style="color:blue">อยู่ใน Roadmap</span> |
+| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MPG | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
+| AVI | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
