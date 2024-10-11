@@ -161,11 +161,11 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 |---|---|---|
 | JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span>|   
 |  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |   
-| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> |
-| AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |
-| SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> (2.0.0) |
+| AI| <span style="color:green">รองรับ</span> (2.1.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
+| SVG | <span style="color:green">รองรับ</span> (2.0.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
 | EPS | <span style="color:blue">อยู่ใน Roadmap</span>  |  <span style="color:blue">อยู่ใน Roadmap</span> |
-| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MP4 | <span style="color:green">รองรับ</span> (2.1.0) |  ไม่รองรับ |
+| MOV | <span style="color:green">รองรับ</span> (2.1.0) |  ไม่รองรับ |
 | MPG | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
 | AVI | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
