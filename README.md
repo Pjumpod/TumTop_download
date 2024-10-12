@@ -161,7 +161,7 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 |---|---|---|
 | JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span>|   
 |  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |   
-| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> (2.0.0) |
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> (2.0.0) <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่|
 | AI| <span style="color:green">รองรับ</span> (2.1.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
 | SVG | <span style="color:green">รองรับ</span> (2.0.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
 | EPS | <span style="color:blue">อยู่ใน Roadmap</span>  |  <span style="color:blue">อยู่ใน Roadmap</span> |
