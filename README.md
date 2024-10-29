@@ -163,6 +163,15 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 1. เพิ่มฟังชั่น Multiple --ar สำหรับการเจน prompt MJ
 2. เพิ่มความสามารถสำหรับไฟล์ SVG ที่ไม่ได้สร้างจาก Adobe Illustrator
 ---
+### v2.1.3 ###
+1. แก้ปัญหา Algorithm ใหม่ของ Dreamtime ทำให้ดึง description มาผิดพลาด
+2. ปรับความเร็ว free tier ของ gemini หลังจากที่ google ปรับ RPM ของ Free Tier ให้รองรับได้มากขึ้น
+3. แก้ไข font ใน prohibit popup และ title style popup.
+4. เอา 's ออกจาก keyword ทั้งหมด
+5. สามารถเช็ค openai server status ได้จากหน้าแอพ
+6. เพิ่มลิ้งไป Claude AI (เตรียมตัวสำหรับเวอชั่นอนาคต 2.2.0)
+7. ปรับปรุง prompt ของ openai และ gemini ให้ดีขึ้น
+---
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 |   |   CSV|  METADATA |   
