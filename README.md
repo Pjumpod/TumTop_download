@@ -52,13 +52,13 @@ Line ID : foolstop หรือ pjumpod
 
 ---
 สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
-### v1.0.1 ####
+### [v1.0.1](https://github.com/Pjumpod/TumTop_download/releases/tag/1.0.1) ####
 1. better look for the GUI buttons for MacOSx.
 2. fix cannot run the program if "user_secret_key" is missing.
 3. show/hide the api_key, author name and secret key button.
    
 ---
-### v1.1.1 ####
+### [v1.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/1.1.1) ####
 1. **แก้ algorithm เพื่อให้ราคาของ openai ถูกลงกว่าเวอร์ชั่นก่อนๆ และ เมื่อยิ่งรันภาพมากขึ้นในคราวเดียว ราคาจะยิ่งถูกลง**
 2. **สามารถเลือกจำนวน keywords เองได้** 
 3. **ลดค่าใช้จ่ายในการให้ Ai ค้นหา Category ให้กับภาพ**
@@ -70,7 +70,7 @@ Line ID : foolstop หรือ pjumpod
 9. สามารถขยายภาพได้สูงสุดมากถึง 4.5x ถ้าภาพ original มีขนาด 900-3000px โดย output จะได้ไฟล์ขนาด 4500px
     
 ---
-### v1.2.0 ####
+### [v1.2.0](https://github.com/Pjumpod/TumTop_download/releases/tag/1.2.0) ####
 1. **เพิ่มตัวเลือก Gemini AI** สามารถใช้ทั้ง OPENAI และ GEMINI AI ได้ในแอพเดียว
 2. เพิ่มความสามารถในการอ่านชื่อไฟล์ของภาพ(filename) แล้วให้ AI ดึงคำในชื่อไฟล์มาเป็น keywords ได้ (แต่ต้องมีความเกี่ยวข้องกับภาพ)
     เหมาะกับสาย AI มีในชื่อไฟล์ จะมี prompt ติดมาบน ชื่อของไฟล์ภาพด้วย
@@ -78,12 +78,12 @@ Line ID : foolstop หรือ pjumpod
       เช่นเว็บ shutterstock, freepik, depositphotos, 123rf, pixta, etc
    
 ---
-### v1.2.1 ####
+### [v1.2.1](https://github.com/Pjumpod/TumTop_download/releases/tag/1.2.1) ####
 1. **Model ใหม่ของ openai 'chatgpt-4o-latest'** 
 2. แก้ปัญหาที่ description ไม่ขึ้นเมื่อในเว็บ depositphoto, 123rf
 
 ---
-### v1.2.2 ####
+### [v1.2.2](https://github.com/Pjumpod/TumTop_download/releases/tag/1.2.2) ####
 1. แก้เรื่อง Error 429 จาก OPENAI การทำงานจะช้าลงเล็กน้อย แต่ โอกาส Error น้อยลงมาก
 2. แก้เรื่อง Error 500 ของ Gemini การทำงานจะช้าลงเล็กน้อย แต่ โอกาส Error น้อยลงมาก
 3. เพิ่ม Free Tier mode
@@ -93,7 +93,7 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 <b>PS:</b> สำหรับ Free Tier ความเร็วสูงสุดคือ 2 รูปต่อนาที หรือ 1รูปต่อนาทีถ้าเลือก Category ด้วย
 
 ---
-### v1.3.0 ###
+### [v1.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/1.3.0) ###
 1. ปรับปรุง algorithm ในการส่งข้อมูลกับ AI ให้ดีขึ้น prompt เดิม แต่ใช้เงินน้อยลง เหลือแค่ 0.02 บาทต่อรูปเท่านั้น (คิดที่ gpt-4o-mini ถูกลงกว่าเวอร์ชั่นก่อนถึง 75%) และไม่มีผลกับคุณภาพคีย์เวิร์ด จะเจอสีม่วงเยอะเหมือนเดิม
   
 > สำหรับราคาที่ gpt-4o-mini
@@ -112,14 +112,14 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 11. เพิ่มคำอธิบายส่วนต่างๆของโปรแกรมเป็นภาษาไทยเมื่อเอา mouse ไปชี้ (Tool Tip)
 
 ---
-### v1.3.1 BETA ###
+### [v1.3.1 BETA](https://github.com/Pjumpod/TumTop_download/releases/tag/1.3.1) ###
 1. แก้ปัญหาจาก AI bug (ไม่ใช่โปรแกรมเราบั๊กนะครับ) เนื่องจาก AI จะมอง รูป png ที่พื้นหลังใส ว่าเป็น black background เจอทั้ง Gemini และ OPENAI แต่โปรแกรมเรารับจบให้ครับ
 2. แก้ไขรูปบางรูปถูก Gemini block เพราะเรื่องของ safety rate ให้โปรแกรมช่วยคุยให้ครับ
 3. improve โปรแกรมเรื่อง error ต่างๆ ทั้ง gemini และ openai
 4. กรณีเกิด ERROR จะมีไฟล์ ERROR.csv อยู่ใน folder Error เพื่อให้ลูกค้าสามารถส่งไฟล์นี้มาให้ Developer ได้เลย (ไม่ต้องค้นหาใน csv)
 
 ---
-### v2.0.0 ###
+### [v2.0.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.0.0) ###
 1. ***เพิ่มการเขียน meta ลงบน PNG ไฟล์*** โดยเขียนเฉพาะ เมื่อ PNG เป็นภาพที่พื้นหลังใส (ลบ Background แล้ว) แต่ ถ้า PNG พื้นหลังไม่ใส ยังแปลงเป็น JPG เหมือนเดิม
 2. Gen Keyword/ Title/ Description ของ Vector file ได้ (เฉพาะ SVG ใน เวอชั่นนี้)
 3. GUI ปรับปรุงใหม่
@@ -131,7 +131,7 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 9. เช็คเวอชั่น เมื่อเปิด และ ปิดโปรแกรม
 10. เพิ่มลิ้งสำคัญๆ ด้านล่างโปรแกรม เช่นลิ้งขอ API_KEY ของ OPENAI และ GEMINI
 ---
-### v2.0.1 ###
+### [v2.0.1](https://github.com/Pjumpod/TumTop_download/releases/tag/2.0.1) ###
 1. เพิ่ม model ใหม่ของ Gemini
     - gemini-1.5-flash-latest
     - gemini-1.5-flash-002 (gemini-1.5-flash-latest จะลิ้งมาที่โมเดลตัวนี้ประมาณ 8 ตุลา)
@@ -149,21 +149,21 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 6. เพิ่มตัวนับ Keywords
 7. ปรับปรุง เพิ่มความเร็วของโปรแกรม.
 ---
-### v2.1.0 ###
+### [v2.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.1.0) ###
 1. เพิ่ม Support สำหรับ VDO นามสกุล mp4 และ mov
 2. เพิ่ม Support สำหรับ Vector นามสกุล ai และฝัง metadata ให้ .ai ได้ด้วย
 3. สามารถฝัง metadata ให้ Vector นามสกุล svg ได้แล้ว
 4. เพิ่ม Gen Prompt สำหรับ MJ
 ---
-### v2.1.1 ###
+### [v2.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/2.1.1) ###
 1. แก้ไขให้ลิ้งจากหน้าโปรแกรมสามารถกลับมากลับมากดได้
 2. เพิ่มการเช็คว่าเวอชั่นใหม่มีอะไรเปลี่ยนบ้าง
 ---
-### v2.1.2 ###
+### [v2.1.2](https://github.com/Pjumpod/TumTop_download/releases/tag/2.1.2) ###
 1. เพิ่มฟังชั่น Multiple --ar สำหรับการเจน prompt MJ
 2. เพิ่มความสามารถสำหรับไฟล์ SVG ที่ไม่ได้สร้างจาก Adobe Illustrator
 ---
-### v2.1.3 ###
+### [v2.1.3](https://github.com/Pjumpod/TumTop_download/releases/tag/2.1.3) ###
 1. แก้ปัญหา Algorithm ใหม่ของ Dreamtime ทำให้ดึง description มาผิดพลาด
 2. ปรับความเร็ว free tier ของ gemini หลังจากที่ google ปรับ RPM ของ Free Tier ให้รองรับได้มากขึ้น
 3. แก้ไข font ใน prohibit popup และ title style popup.
