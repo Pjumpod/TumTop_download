@@ -182,15 +182,15 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 ---
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
-|   |   CSV|  METADATA |   
+| ไฟล์นามสกุล  |   CSV|  METADATA |   
 |---|---|---|
-| JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span>|   
-|  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">รองรับ</span> |   
-| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">รองรับ</span> (2.0.0) <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่|
-| AI| <span style="color:green">รองรับ</span> (2.1.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
-| SVG | <span style="color:green">รองรับ</span> (2.0.0) |  <span style="color:green">รองรับ</span> (2.1.0)|
-| EPS | <span style="color:blue">อยู่ใน Roadmap</span>  |  <span style="color:blue">อยู่ใน Roadmap</span> |
-| MP4 | <span style="color:green">รองรับ</span> (2.1.0) |  ไม่รองรับ |
-| MOV | <span style="color:green">รองรับ</span> (2.1.0) |  ไม่รองรับ |
-| MPG | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
-| AVI | <span style="color:blue">อยู่ใน Roadmap</span>  |  ไม่รองรับ |
+| JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
+|  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงภาพได้</span> |   
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> (2.0.0) <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
+| AI| <span style="color:green">รองรับ</span> (2.1.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.1.0) |
+| SVG | <span style="color:green">รองรับ</span> (2.0.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.1.0) |
+| EPS | <span style="color:green">รองรับ</span> (2.2.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.2.0)|
+| MP4 | <span style="color:green">รองรับ</span> (2.1.0)  |  ไม่รองรับ |
+| MOV | <span style="color:green">รองรับ</span> (2.1.0)  |  ไม่รองรับ |
+| MPG | <span style="color:green">รองรับ</span> (2.2.0)  |  ไม่รองรับ |
+| AVI | <span style="color:green">รองรับ</span> (2.2.0)  |  ไม่รองรับ |
