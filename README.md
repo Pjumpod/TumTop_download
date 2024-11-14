@@ -180,17 +180,27 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 3. แก้ไขปัญหา เวลารันแล้วเกิด Error แต่มีการตัด USK
 4. วางลิ้งเรือง TradeMark ของ Adobe ในหน้าโปรแกรม
 ---
+### [v2.2.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.2.0) ###
+1. สามารถ วิเคราะห์ Title และ Keywords ให้กับภาพเวคเตอร์ นามสกุล EPS ได้แล้ว โดยสามารถฝัง Metadata ได้ด้วย
+2. สามารถ วิเคราะห์ Title และ Keywords ให้กับ VDO footage นามสกุล MPG และ AVI ได้แล้ว
+3. ลด Token การวิเคราะห์ Title และ Keywords ของ VDO ทุกนามสกุลลงเหลือ 1 token จากเดิม 2 tokens.
+4. สามารถคลิกขวาเลือก Select All, Copy, Paste, Cut ได้ บน Windows.
+5. จัดเรียงตำแหน่งตัว checkbox ใหม่ เอา category นำไปไว้ด้านบนสุด
+6. จัดการ การใช้ memory ให้ดีขึ้น
+7. สามารถรันผ่าน External HDD ของ MacOS ได้อย่างไม่มีปัญหา
+8. แก้ไขปัญหาของภาพที่ผ่านการ Up DPI มาจากโปรแกรมอื่นๆแล้ว ทำให้ภาพนั้นเวลาเปิดด้วยโปรแกรมทำภาพพวก Photoshop, GIMP จะไม่สามารถแสดงค่า DPI ที่ ถูกต้องได้
+9. สามารถใช้ปุ่มลูกศรขึ้นลง บน keyboard เพื่อขึ้นลง ตอนรีวิว รูป/title/description/keyword จากตารางได้
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
 |---|---|---|
 | JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
 |  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงภาพได้</span> |   
-| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> (2.0.0) <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
-| AI| <span style="color:green">รองรับ</span> (2.1.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.1.0) |
-| SVG | <span style="color:green">รองรับ</span> (2.0.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.1.0) |
-| EPS | <span style="color:green">รองรับ</span> (2.2.0)  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span>(2.2.0)|
-| MP4 | <span style="color:green">รองรับ</span> (2.1.0)  |  ไม่รองรับ |
-| MOV | <span style="color:green">รองรับ</span> (2.1.0)  |  ไม่รองรับ |
-| MPG | <span style="color:green">รองรับ</span> (2.2.0)  |  ไม่รองรับ |
-| AVI | <span style="color:green">รองรับ</span> (2.2.0)  |  ไม่รองรับ |
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
+| AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| EPS | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MPG | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| AVI | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
