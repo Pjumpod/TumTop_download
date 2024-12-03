@@ -191,7 +191,7 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 8. แก้ไขปัญหาของภาพที่ผ่านการ Up DPI มาจากโปรแกรมอื่นๆแล้ว ทำให้ภาพนั้นเวลาเปิดด้วยโปรแกรมทำภาพพวก Photoshop, GIMP จะไม่สามารถแสดงค่า DPI ที่ ถูกต้องได้
 9. สามารถใช้ปุ่มลูกศรขึ้นลง บน keyboard เพื่อขึ้นลง ตอนรีวิว รูป/title/description/keyword จากตารางได้
 ---
-### [v2.2.1](https://github.com/Pjumpod/TumTop_download/releases/tag/2.2.1) ###
+### [v2.2.2](https://github.com/Pjumpod/TumTop_download/releases/tag/2.2.2) ###
 1. เพิ่ม Claude AI เป็น AI ตัวที่ 3 ที่ใช้ใน program ของเราได้ (ก่อนหน้านี้มี 2 ตัวคือ OpenAI และ Gemini)
 2. เพิ่ม model "gpt-4o-2024-11-20" ของ OpenAI ซึ่ง OpenAI บอกมาว่า เวอชั่นนี้ การเขียน จะได้สำนวนที่สวยขึ้น (จากที่ทดลอง ก็เห็นอารมณ์ความแตกต่างของ title ที่ได้จาก gpt-4o ตัวปัจจุบันจริงๆ)
 3. เพิ่มโมเดล ใหม่จาก GEMINI ดังนี้ Gemini-EXP-1121, GEMINI-EXP-1114 และ LEARN-1.5-PRO
