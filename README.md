@@ -214,6 +214,17 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 2. OPENAI และ GEMINI สามารถอ่านรูปลายเส้นที่เป็นพื้นหลังใสได้แล้ว!!!
 3. ปรับปรุงการสกรีน ตัวอักขระพิเศษใน keyword
 ---
+### [v2.2.6](https://github.com/Pjumpod/TumTop_download/releases/tag/2.2.6) ###
+1. Gemini โมเดลใหม่ Gemini Flash 2.0
+2. เพิ่ม Max Prompt ใน Gen Prompt ถึง 120
+3. เพิ่มการแตก Title style ไปที่ Keyword ให้กับ VDO
+4. สามารถเลือกได้ว่าจะใส่ คำ ที่แตกมาจาก title style มาไว้คำที่เท่าไรของ keyword
+5. ปรับปรุงปัญหาที่เกิดขึ้นกับ csv file
+6. ลดการใช้ memory ของโปรแกรม
+7. ปรับปรุง logfile
+8. แก้ปัญหาบางครั้ง เมื่อ gen title/kw แล้วเกิด ERROR ตัวไฟล์ไม่เข้าไปอยู่ใน folder ERROR
+9. ถ้าเลือก เจน title/kw แบบมี category จะได้ csv เพิ่มมาอีกไฟล์ เป็น csv ของ shuterstock แบบมี primary category (ss.csv)
+---
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
