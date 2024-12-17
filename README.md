@@ -225,6 +225,11 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 8. แก้ปัญหาบางครั้ง เมื่อ gen title/kw แล้วเกิด ERROR ตัวไฟล์ไม่เข้าไปอยู่ใน folder ERROR
 9. ถ้าเลือก เจน title/kw แบบมี category จะได้ csv เพิ่มมาอีกไฟล์ เป็น csv ของ shuterstock แบบมี primary category (ss.csv)
 ---
+### [v2.2.7](https://github.com/Pjumpod/TumTop_download/releases/tag/2.2.7) ###
+1. เพิ่มความสามารถให้โปรแกรมจำ ratio ที่เลือกไว้ก่อนกด Gen Prompt รอบล่าสุดได้
+2. ปรับปรุงโปรแกรม เรื่อง csv
+3. ลดการใช้ cpu/memory ของเครื่อง เพื่อให้ รัน vdo ได้ดีขึ้น
+---
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
