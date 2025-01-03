@@ -243,6 +243,9 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 | JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
 |  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงภาพได้</span> |   
 | PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
+|  TIFF | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
+|  WEBP | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
+|  HEIC | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
 | AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
 | SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
 | EPS | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
