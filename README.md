@@ -253,6 +253,7 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 6. รับมือกับสัญลักษณ์ ' ตัวใหม่จาก AI
 
 ![KW Analysis](https://github.com/user-attachments/assets/8618536a-bf2c-48c8-b832-f0fe8a1cf4ee)
+---
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
