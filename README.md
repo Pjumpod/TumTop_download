@@ -244,6 +244,15 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 5. สามารถใช้ model niji6 ได้ ใน gen prompt.
 6. รองรับไฟล์นามสกุล WEBP, TIFF และ HEIC โดยจะแปลงเป็น JPG และเขียน meta ลงไปที่ JPG ไฟล์เลย
 ---
+### [v2.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.3.0) ###
+1. Keyword Analysis ที่เร็วมาก มีโหมด VIP (unlimited key set) และ free ให้เลือกใช้
+2. แก้ไขปัญหา svg ไฟล์ ไม่สามารถรันได้ ซึ่งสาเหตุเกิดจาก การอัพเดต patch ของ os
+3. เปลี่ยน Themes ของ Windows
+4. เปลี่ยน algorithm ในการจัดการกับ prohibit list
+5. รับมือกับสัญลักษณ์ _ จาก AI.
+6. รับมือกับสัญลักษณ์ ' ตัวใหม่จาก AI
+
+![KW Analysis](https://github.com/user-attachments/assets/8618536a-bf2c-48c8-b832-f0fe8a1cf4ee)
 #### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
