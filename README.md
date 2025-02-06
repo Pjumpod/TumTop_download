@@ -1,21 +1,37 @@
-### TumTop โปรแกรม
-เป็นโปรแกรม ที่เอาไว้ generate keyword แล้ว เก็บเป็น csv file ให้ และสามารถ เขียนลง meta data ของรูปได้ด้วย  
+![image](https://github.com/user-attachments/assets/1e5149d2-ff7d-4d3f-b089-4ad800bce6dd)
+
+### ### TumTop: เครื่องมือฝัง Metadata สำหรับภาพออนไลน์
+
+> เป็นโปรแกรมที่ออกแบบมาเพื่อฝัง title, description, และ keywords ลงบนภาพถ่ายหรือภาพที่สร้างด้วย AI โดยเฉพาะ เป็นที่นิยมใช้กันในแพลตฟอร์มขายภาพออนไลน์ เช่น Shutterstock และ Adobe Stock รองรับการทำงานได้ทั้งบนระบบปฏิบัติการ Windows และ MacOS ทั้ง Intel chip และ M chip
+> 
 #### ข้อดี
-1. สามารถเลือก model ของ openai เองได้ 
-2. คุณเป็นคนคุมค่าใช้จ่ายของ api_key ด้วยตัวเอง
-3. สามารถขยายรูปได้ ถ้ารูปต้นทางเจนมาจาก AI (ดูตัวอย่าง รูป original vs รูปขยาย resized ได้ในตัวอย่างด้านล่าง)
-    ขอเพียงคุณมี User_Secret_Key โปรแกรมจะเจนอัตโนมัติ ตอนที่ทำการฝัง meta data ลงไปที่รูป
-    การขยายรูป จะขยายแบบไม่ได้ใช้ AI ดังนั้น ฟรีต้นทุน ไม่ถูกตัดงานวงเงินของ api_key
-4. การส่งรูปไปถาม keyword จาก AI ทางเราใช้ algorithm ที่ทำให้ต้นทุนถูกกว่าหลายๆเจ้า แม้คุณจะส่งภาพใหญ่ มาให้โปรแกรมเจนก็ตาม
-  โดยจากการทดลอง คุณเสีย API cost แค่ 0.02 บาทต่อรูปเท่านั้น (gpt-4o-mini) ถูกที่สุดในตลาดปัจจุบัน
-5. สามารถกดปุ่ม save ที่หน้าโปรแกรมได้ เพื่อจะได้ไม่ต้องคอยกรอก api_key ทุกๆครั้งที่ใช้โปรแกรม
-6. ทดลองใช้งานได้ 5 รูป และ สำหรับผู้มี usk => 10 รูปแรกของแต่ละ folder **ฟรี** ถ้ารันมากกว่า 50 รูปขึ้นไป
-7. สามารถใส่ input ได้ทั้ง PNG, JPG, SVG, AI, MP4, MOV ไฟล์  <br>
-8. รันได้ทั้ง Gemini และ OpenAI  <br>
-9. User Friendly ใช้งานง่าย แล้ว เร็ว  <br>
-10. ได้ คีย์เวิร์ดสีม่วงเยอะมาก
-11. มี Developer คอยอัพเดต แก้ไข Program อยู่ตลอด
-12. คุยปรึกษากันได้ เรามีไลน์กลุ่ม Openchat.
+- รองรับ Windows และ MacOS ทั้ง Intel และ M chip
+- เลือกใช้ OpenAI, Gemini หรือ Claude ได้
+- ควบคุมค่าใช้จ่าย API key เอง
+- ขยายภาพได้ถึง 4.5x (900-3000px เป็น 4500px) โดยไม่ใช้ AI
+- ฝัง metadata อัตโนมัติด้วย User Secret Key (USK)
+- ปรับแต่งจำนวน keywords และความยาว Title ได้
+- ค้นหา category อัตโนมัติสำหรับ Adobe Stock
+- รองรับไฟล์หลายรูปแบบ ดังภาพ
+| ไฟล์นามสกุล  |   CSV|  METADATA |   
+|---|---|---|
+| JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
+|  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงภาพได้</span> |   
+| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
+|  TIFF | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
+|  WEBP | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
+|  HEIC | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
+| AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| EPS | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
+| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MPG | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| AVI | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+- มีฟังก์ชัน Stop List of Keywords สำหรับคัดกรองคำที่ไม่ต้องการ หรือคำที่ติดลิขสิทธิ์เครื่องหมายการค้า
+- มีฟังก์ชัน Title Style สำหรับกำหนดรูปแบบการเพิ่มคำใน Title และ Keywords ของแต่ละภาพ
+- มีฟังก์ชัน PromptMJ สำหรับสร้าง Prompt เพื่อนำไปสร้างภาพในเว็บ Midjourney
+- มีฟังก์ชัน Keyword Analysis สำหรับวิเคราะห์จำนวนภาพของคู่แข่งจากชุด Keywords ที่ต้องการ เพื่อค้นหาโอกาสทางการตลาด
 
 ---
 ### การใช้งาน
@@ -254,20 +270,4 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 
 ![KW Analysis](https://github.com/user-attachments/assets/8618536a-bf2c-48c8-b832-f0fe8a1cf4ee)
 ---
-#### ตอนนี้โปรแกรมเรารองรับนามสกุลดังนี้
 
-| ไฟล์นามสกุล  |   CSV|  METADATA |   
-|---|---|---|
-| JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
-|  JPEG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงภาพได้</span> |   
-| PNG | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span> <br/> จำแนกได้ว่ารูปไหนเป็น Background ใส หรือ ไม่<br/> ถ้าเป็นภาพพื้นหลังใส จะเขียน metadata ลงไฟล์ PNG เลย <br/> ถ้าเป็นภาพสีพื้น จะแปลงเป็น JPG ก่อน และเขียน Metadata ลง JPG <br/><br/> ตามกฏการส่งงาน|
-|  TIFF | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
-|  WEBP | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
-|  HEIC | <span style="color:green">รองรับ</span>  |  <span style="color:green">แปลงเป็น JPG และ ฝัง metadata ลง JPG</span> |  
-| AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
-| SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
-| EPS | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
-| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| MPG | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| AVI | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
