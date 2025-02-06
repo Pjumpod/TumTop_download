@@ -13,6 +13,7 @@
 - ปรับแต่งจำนวน keywords และความยาว Title ได้
 - ค้นหา category อัตโนมัติสำหรับ Adobe Stock
 - รองรับไฟล์หลายรูปแบบ ดังภาพ
+ 
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
 |---|---|---|
 | JPG  | <span style="color:green">รองรับ</span>  | <span style="color:green">ฝัง metadata ลงภาพได้</span>|   
