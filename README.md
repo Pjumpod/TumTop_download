@@ -1,10 +1,10 @@
 ![image](https://github.com/user-attachments/assets/1e5149d2-ff7d-4d3f-b089-4ad800bce6dd)
 
-### TumTop: เครื่องมือฝัง Metadata สำหรับภาพออนไลน์
+### TumTop: เครื่องมือฝัง Metadata สำหรับภาพออนไลน์ ###
 
 > เป็นโปรแกรมที่ออกแบบมาเพื่อฝัง title, description, และ keywords ลงบนภาพถ่ายหรือภาพที่สร้างด้วย AI โดยเฉพาะ เป็นที่นิยมใช้กันในแพลตฟอร์มขายภาพออนไลน์ เช่น Shutterstock และ Adobe Stock รองรับการทำงานได้ทั้งบนระบบปฏิบัติการ Windows และ MacOS ทั้ง Intel chip และ M chip
 > 
-#### ข้อดี
+#### ข้อดี ###
 - รองรับ Windows และ MacOS ทั้ง Intel และ M chip
 - เลือกใช้ OpenAI, Gemini หรือ Claude ได้
 - ควบคุมค่าใช้จ่าย API key เอง
@@ -35,13 +35,15 @@
 - มีฟังก์ชัน Keyword Analysis สำหรับวิเคราะห์จำนวนภาพของคู่แข่งจากชุด Keywords ที่ต้องการ เพื่อค้นหาโอกาสทางการตลาด
 
 ---
-### การใช้งาน
+### การใช้งาน ###
 1. unzip and install app. สำหรับ MacOS สามารถเปิดตัว DMG แล้วลากลง Application ได้เลย
 2. สำหรับ Windows สามารถ unzip และเปิดตัว TumTop.exe ได้เลย
 3. ขอ api_key ของ openai มากรอกช่อง API_KEY คุณสามารถ ควบคุม รายจ่ายค่า API ได้ด้วยตัวเอง <br>
     [วิธีขอ API_KEY ภาษาไทย](https://th.extendoffice.com/documents/excel/7435-get-openai-api-key.html) <br>
    ขอ api_key ของ gemini มากรอกช่อง Gemini API_KEY คุณสามารถ ควบคุมรายจ่ายค่าใช้ API ได้ด้วยตัวเองที่ <br>
-   [Link ขอ api_key ของ Gemini](https://aistudio.google.com/app/apikey?hl=th )
+   [Link ขอ api_key ของ Gemini](https://aistudio.google.com/app/apikey?hl=th ) <br>
+   ขอ api_key ของ claude มากรอกช่อง Claude API_KEY <br>
+   [Link ขอ api_key ของ Claude ภาษาไทย](https://data-espresso.com/claude-ai-api-guide-for-beginners/)<br>
 5. กรอก User Secret Key (ถ้ามี) ถ้าไม่มี สามารถติดต่อ Line ID ด้านล่าง
 6. กดปุ่ม Browse เพื่อเปิด Folder ที่มีรูปอยู่ "**เพียงคลิก ที่ไฟล์ใดไฟล์หนึ่งที่อยู่ใน Folder นั้น**" โปรแกรมจะดึงไฟล์รูปทั้งหมดมาดำเนินการอัตโนมัติ
 8. เลือก model ของ AI ที่ใช้เจน ปกติคือ 4o-mini จะถุกที่สุด ตกรูปละประมาณ 0.08 บาท (ไม่รวมค่า user_secret_key) หรืออาจจะเลือก 4o ที่แพงขึ้น แต่แลกกับคีย์เวิร์ดดที่น่าจะหาได้และครอบคลุมมากขึ้น ก็ได้
@@ -49,7 +51,7 @@
 10. โปรแกรมจะสร้าง Folder  ขึ้นมาใหม่ ข้างใน Folder ที่เลือกจากข้อ 5 ใน Folder นั้น จะมีรูปที่ ฝัง Meta data ให้แล้ว (ถ้ามี User Secret key ในข้อ 4) และมีไฟล์ csv จะถูกสร้างขึ้น อยู่ใน folder นั้นอีกด้วย
 
 ---
-### เรทราคา
+### เรทราคา ###
 1. ต้องมี api_key คุณสามารถควบคุม การใช้งานของ api_key ได้ด้วยตนเอง
    จากการทดลอง ถ้าใช้ โมเดล 4o-mini สามารถรันคีย์เวิร์ดได้ถูกกว่า 0.1 บาท ต่อรูป
     แต่ โมเดล 4o นั้นแพงกว่า แต่ก็ได้ คีย์เวิร์ดที่ดีกว่าเช่นกัน 
@@ -62,15 +64,21 @@
 5. กรณี รูปภาพบางรูป ทาง AI ไม่สามารถคิด keywords ให้ได้ เราจะไม่ตัดเงินจาก user_secret_key ถือว่าโปรแกรมเจนรูปนั้นๆไม่สำเร็จ
 
 ---
-### พบเจอบั๊ก
-สามารถแจ้งได้ที่ [bugtracker](https://github.com/Pjumpod/TumTop_download/issues) เรามีรางวัลให้ด้วย
+### พบเจอบั๊ก ###
+- สามารถแจ้งได้ที่ [bugtracker](https://github.com/Pjumpod/TumTop_download/issues) เรามีรางวัลให้ด้วย
 
 ---
-# Line ID
-Line ID : foolstop หรือ pjumpod 
+# Line ID #
+- Line ID : foolstop หรือ pjumpod 
+---
+### ช่องทางการติดต่อ ###
+- [Facebook Fan page](https://www.facebook.com/tumtopapp) <br>
+- [Notion](https://supreme-archer-cdb.notion.site/TumTop-1916ff4a10ff808db65ccefdac2db727)
 
 ---
-สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
+# Release #
+- สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
+---
 ### [v1.0.1](https://github.com/Pjumpod/TumTop_download/releases/tag/1.0.1) ####
 1. better look for the GUI buttons for MacOSx.
 2. fix cannot run the program if "user_secret_key" is missing.
@@ -271,4 +279,3 @@ FREE TIER ไม่ได้หมายถึง คนที่ได้เค
 
 ![KW Analysis](https://github.com/user-attachments/assets/8618536a-bf2c-48c8-b832-f0fe8a1cf4ee)
 ---
-
