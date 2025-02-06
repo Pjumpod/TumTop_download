@@ -129,7 +129,7 @@
 ---
 ### ช่องทางการติดต่อ ###
 - [Facebook Fan page](https://www.facebook.com/tumtopapp) <br>
-- [Notion](https://supreme-archer-cdb.notion.site/TumTop-1916ff4a10ff808db65ccefdac2db727)
+- [Notion](https://fan-bank-49f.notion.site/TumTop-19248f4e66e58129ac76de3dc7ca07da)
 
 ---
 # Release #
