@@ -11,7 +11,7 @@
 - ขยายภาพได้ถึง 4.5x (900-3000px เป็น 4500px) โดยไม่ใช้ AI
 - ฝัง metadata อัตโนมัติด้วย User Secret Key (USK)
 - ปรับแต่งจำนวน keywords และความยาว Title ได้
-- ค้นหา category อัตโนมัติสำหรับ Adobe Stock
+- ค้นหา category อัตโนมัติสำหรับ Adobe Stock และ Shutterstock
 - รองรับไฟล์หลายรูปแบบ ดังภาพ
  
 | ไฟล์นามสกุล  |   CSV|  METADATA |   
