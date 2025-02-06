@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/1e5149d2-ff7d-4d3f-b089-4ad800bce6dd)
 
-### ### TumTop: เครื่องมือฝัง Metadata สำหรับภาพออนไลน์
+### TumTop: เครื่องมือฝัง Metadata สำหรับภาพออนไลน์
 
 > เป็นโปรแกรมที่ออกแบบมาเพื่อฝัง title, description, และ keywords ลงบนภาพถ่ายหรือภาพที่สร้างด้วย AI โดยเฉพาะ เป็นที่นิยมใช้กันในแพลตฟอร์มขายภาพออนไลน์ เช่น Shutterstock และ Adobe Stock รองรับการทำงานได้ทั้งบนระบบปฏิบัติการ Windows และ MacOS ทั้ง Intel chip และ M chip
 > 
