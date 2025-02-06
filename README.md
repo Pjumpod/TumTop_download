@@ -42,7 +42,8 @@
 1. โหลดตัว TumTop_Intel_Chip หรือ TumTop_M ตามเครื่องที่ใช้งาน
 2. Unzip และเปิดตัว dmg แล้วลากไฟล์ลงไปไว้ในโฟลเดอร์ Application
     
-    ![image.png](attachment:bd641232-8a93-4939-91cc-c6d429ec61cd:image.png)
+    ![image](https://github.com/user-attachments/assets/bbe4d101-d3da-4e67-8fc4-62ce606da72f)
+
     
 3. ให้เปิดการตั้งค่า Privacy & Security ใน setting
    
@@ -50,8 +51,8 @@
 
 4. ทำการเปิดโปรแกรมได้เลย
     
-    ![image.png](attachment:d68254a8-de29-4b0e-9147-20644258612f:image.png)
-    
+    ![image](https://github.com/user-attachments/assets/a34bb487-231f-477b-b0eb-ecdc04b4a026)
+
 
 ### **สำหรับ Windows**
 
