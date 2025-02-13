@@ -157,7 +157,9 @@
 <li>Keyword Analysis สามารถกดที่ Heading ของตารางเพื่อเรียงค่าได้ตามแถวที่ต้องการได้</li>
 <li>เพิ่มลิ้งไป Notion เพื่ออ่านวิธีการใช้งานเบื้องต้น **มีประโยชน์มาก สำหรับผู้เริ่มต้นใช้งาน**</li>
 </ol>
+
 ---
+
 ### [v2.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.3.0) ###
 1. Keyword Analysis ที่เร็วมาก มีโหมด VIP (unlimited key set) และ free ให้เลือกใช้
 2. แก้ไขปัญหา svg ไฟล์ ไม่สามารถรันได้ ซึ่งสาเหตุเกิดจาก การอัพเดต patch ของ os
