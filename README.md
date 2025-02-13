@@ -135,6 +135,29 @@
 # Release #
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
+### [v2.3.1](https://github.com/Pjumpod/TumTop_download/releases/tag/2.3.1) ###
+<ol>
+<li>คำที่อยู่ใน prohibit list ถ้าใส่รูปเอกพจน์มา จะถูกแบนทั้ง เอกพจน์ และ รูปพหูพจน์</li>
+<li>Added new Gemini model.</li>
+<ul>
+ <li>Gemini 2.0 Flash "gemini-2.0-flash-001"</li>
+ <li>Gemini 2.0 Flash Lite "gemini-2.0-flash-lite-preview-02-05"</li>
+<li>Gemini 2.0 Pro Experiment. "gemini-2.0-pro-exp-02-05"</li>
+ </ul>
+<li>มีแถบ progress bar แสดง status ตอนรัน keyword analysis.</li>
+<li>ในตารางแสดงผลของ keyword analysis ถ้าคลิกเลือกช่อง และ double click จะ copy ข้อมูลของ cell นั้นๆ (ช่องเดียว)</li>
+<li>ในตารางแสดงผลของ keyword analysis ถ้าคลิกเลือกหลายๆช่อง และ right click จะ copy ข้อมูลทั้งหมดของทุกช่องที่เลือกไว้ (หลายช่อง)</li>
+<li>ในตารางแสดงผลของ keyword analysis เมื่อรันเสร็จ จะเรียงลำดับ จาก น้อยไปมากให้อัตโนมัต</li>
+<li>ตำแหน่งแสดง usk คงเหลือ จะแสดงสีได้</li>
+<ul>
+<li>สีเขียว เมื่อ usk > 500</li>
+<li>สีส้ม เมื่อ 500 > usk > 100</li>
+<li>สีแดง เมื่อ 100 > usk </li>
+</ul>
+<li>Keyword Analysis สามารถกดที่ Heading ของตารางเพื่อเรียงค่าได้ตามแถวที่ต้องการได้</li>
+<li>เพิ่มลิ้งไป Notion เพื่ออ่านวิธีการใช้งานเบื้องต้น **มีประโยชน์มาก สำหรับผู้เริ่มต้นใช้งาน**</li>
+</ol>
+---
 ### [v2.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/2.3.0) ###
 1. Keyword Analysis ที่เร็วมาก มีโหมด VIP (unlimited key set) และ free ให้เลือกใช้
 2. แก้ไขปัญหา svg ไฟล์ ไม่สามารถรันได้ ซึ่งสาเหตุเกิดจาก การอัพเดต patch ของ os
