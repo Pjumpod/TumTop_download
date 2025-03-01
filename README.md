@@ -135,6 +135,27 @@
 # Release #
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
+### [v3.0.0](https://github.com/Pjumpod/TumTop_download/releases/tag/3.0.0) ###
+1. ฟังชั่น Theme โดยตอนนี้มี 6 Themes (Dark, Light, Blue, Valentine, Hacker, AI)
+2. model ใหม่ Claude Sonnet 3.7
+3. ปรับปรุงประสิทธิภาพ การคิด title/keyword ให้กับ ไฟล์นามสกุล SVG.
+4. **AUTO GEN RECRAFT** สามารถ เจนภาพจาก Recraft ได้ เลือกได้ว่าจะเจน photo, illustrator หรือ vector
+5. **AUTO GEN RECRAFT** สามารถเลือกได้ตั้งแต่ 1-4 ว่าจะเจนพร้อมพ์ละกี่ภาพ
+6. **AUTO GEN RECRAFT** มี style ให้เลือกว่าจะใช้แบบไหนเจน ในเวอชั่นแรกนี้ แอดมิน เอาแค่ที่ แอดมินชอบใช้มาใส่ก่อนนะครับ
+7. **AUTO GEN RECRAFT** สามารถเรียก txt หรือ csv ที่ทำพร้อมพ์ไว้สำหรับ MJ ได้เลย
+8. **AUTO GEN RECRAFT** สามารถเลือกขนาดรูปได้ โดยจะดู --ar จาก prompt เป็นหลักก่อน ถ้าไม่มี หรือ ratio นั้นๆทาง recraft ไม่ support จะใช้ ขนาดของไฟล์ที่เลือกไว้
+9. **AUTO GEN RECRAFT** สามารถโหลด csv/txt หรือ เลือกจากปุ่ม "Gen Recraft" ที่หน้า GenPrompt ได้เลย โดยโปรแกรมจะดึง prompt ที่ได้จาก genPrompt มาไว้ในหน้าของ Auto Gen Recraft ด้วย
+10. **AUTO GEN RECRAFT** ตอนนี้ฟรี เสียแค่ค่า API ของ recraft
+
+![image](https://github.com/user-attachments/assets/455d6a24-584e-47da-9c28-0af8e448fea6)
+
+![image](https://github.com/user-attachments/assets/b54be705-6c01-4fc5-b7b5-9e7ffe5d7905)
+
+NOTE: AUTO GEN RECRAFT จะได้ รูปเป็น WEBP กับ SVG
+- [WEBP] สามารถ convert เป็น JPG ด้วย GIGAPIXEL ตอนขยายได้ แต่ถ้าลืม หรือทำไม่เป็น 
+ทาง TumTop รองรับไฟล์นามสกุล WEBP ด้วยเช่นกัน โดยจะแปลงเป็น JPG ให้ และ ฝัง Metadata ให้อัตโนมัต
+- [ SVG] ทาง TumTop รองรับอยู่แล้ว
+---
 ### [v2.3.1](https://github.com/Pjumpod/TumTop_download/releases/tag/2.3.1) ###
 <ol>
 <li>คำที่อยู่ใน prohibit list ถ้าใส่รูปเอกพจน์มา จะถูกแบนทั้ง เอกพจน์ และ รูปพหูพจน์</li>
