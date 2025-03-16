@@ -155,7 +155,9 @@
 <li>gemini-2.0-flash-thinking-exp</li>
 </ul>
 </ol>
+
 ---
+
 ### [v3.0.0](https://github.com/Pjumpod/TumTop_download/releases/tag/3.0.0) ###
 1. ฟังชั่น Theme โดยตอนนี้มี 6 Themes (Dark, Light, Blue, Valentine, Hacker, AI)
 2. model ใหม่ Claude Sonnet 3.7
