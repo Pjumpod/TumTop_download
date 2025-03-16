@@ -25,10 +25,10 @@
 | AI| <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
 | SVG | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
 | EPS | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลงเวคเตอร์ได้</span> |
-| MP4 | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| MOV | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| MPG | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
-| AVI | <span style="color:green">รองรับ</span>  |  ไม่รองรับ |
+| MP4 | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลง VDO ได้</span> |
+| MOV | <span style="color:green">รองรับ</span>  |  <span style="color:green">ฝัง metadata ลง VDO ได้</span> |
+| MPG | <span style="color:green">รองรับ</span>  |  - |
+| AVI | <span style="color:green">รองรับ</span>  |  - |
 - มีฟังก์ชัน Stop List of Keywords สำหรับคัดกรองคำที่ไม่ต้องการ หรือคำที่ติดลิขสิทธิ์เครื่องหมายการค้า
 - มีฟังก์ชัน Title Style สำหรับกำหนดรูปแบบการเพิ่มคำใน Title และ Keywords ของแต่ละภาพ
 - มีฟังก์ชัน PromptMJ สำหรับสร้าง Prompt เพื่อนำไปสร้างภาพในเว็บ Midjourney
@@ -134,6 +134,27 @@
 ---
 # Release #
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
+---
+### [v3.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.0) ###
+<ol>
+<li> แก้ปัญหาใน live function ที่ไฟล์ SVG สามารถดูได้แค่ครั้งเดียว</li>
+<li>ฟังชั่นใหม่ Key Concept</li>
+<li>เลือกฝัง metadata บน VDO แบบเลือก on/off ได้ สำหรับนามสกุล MOV/MP4 <br> ***เทสด้วยไฟล์ ProRess422 ไฟล์ละประมาณ 1 gb 10 ไฟล์ รวม 10 gb ใช้เวลาประมาณ 59 วินาที ขึ้นอยู่กับความไวของ hdd และ ssd ของคอมพิวเตอร์ด้วย ถ้า HDD M2 หรือ SSD ก็จะไวกว่า SATA และ แบบเก่า</li>
+<li>เพิ่ม model ใน openai (ข้อควรระวัง แพงมาก เหมาะกับผู้ที่ต้องการความ Luxury.) </li>
+<ul>
+<li>o1</li>
+<li>o1-2024-12-17</li>
+<li>gpt-4.5-preview</li>
+<li>gpt-4.5-preview-2025-02-27</li>
+</ul>
+<li>เพิ่ม model ใน gemini</li>
+<ul>
+<li>gemini-2.0-flash-lite-001</li>
+<li>gemini-2.0-pro-exp</li>
+<li>gemini-2.0-flash-thinking-exp-01-21</li>
+<li>gemini-2.0-flash-thinking-exp</li>
+</ul>
+</ol>
 ---
 ### [v3.0.0](https://github.com/Pjumpod/TumTop_download/releases/tag/3.0.0) ###
 1. ฟังชั่น Theme โดยตอนนี้มี 6 Themes (Dark, Light, Blue, Valentine, Hacker, AI)
