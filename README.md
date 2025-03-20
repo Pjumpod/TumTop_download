@@ -135,6 +135,18 @@
 # Release #
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
+
+### [v3.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.1) ###
+<ol>
+<li>เพิ่ม model ใน Claude</li>
+<ul>
+<li>claude-3-5-haiku-20241022</li>
+</ul>
+<li>แก้บั๊กที่เมื่อใช้ model gpt-4o-mini แล้วมีโอกาสที่จะมี , คั่นระหว่างคำ ใน title ของรูปบางรูป</li>
+<li>ปรับปรุง title ที่ได้ให้ตัดจบประโยคได้สวยงามมากขึ้น</li>
+</ol>
+
+---
 ### [v3.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.0) ###
 <ol>
 <li> แก้ปัญหาใน live function ที่ไฟล์ SVG สามารถดูได้แค่ครั้งเดียว</li>
