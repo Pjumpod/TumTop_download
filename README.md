@@ -136,6 +136,17 @@
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
 
+### [v3.1.2](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.2) ###
+<ol>
+<li>ปรับปรุง คุณภาพ ของ description และ keywords ให้ดีขึ้น</li>
+<li>เพิ่ม screening message เพื่อรองรับ openai หลังอัพเดต</li>
+<li>ปรับปรุง GUI เล็กน้อย ในส่วนของ progress bar</li>
+<li>Prompt helper สำหรับเจน Text to VDO (BETA)</li>
+<li>Gemini โมเดลใหม่ gemini-2.5-pro-exp-03-25</li>
+</ol>
+
+---
+
 ### [v3.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.1) ###
 <ol>
 <li>เพิ่ม model ใน Claude</li>
