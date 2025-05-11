@@ -136,6 +136,31 @@
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
 
+
+### [v4.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.1.0) ###
+<ol>
+<li>ปรับปรุง คุณภาพ ของ title, description และ keywords ให้ดีขึ้น</li>
+<li>แก้ปัญหาที่ฝัง metadata ของ mp4 จากกล้องบางรุ่นไม่ได้</li>
+<li>MJ version 7 ใน genprompt.</li>
+<li>Gemini โมเดลใหม่</li>
+<ul>
+<li>Gemini-2.5-pro-preview-03-25</li>
+<li>Gemini-2.5-flash-preview-04-17</li>
+</ul>
+<li>OpenAI โมเดลใหม่</li>
+<ul>
+<li>GPT-4.1</li>
+<li>GPT-4.1-nano</li>
+<li>GPT-4.1-mini</li>
+<li>o4-mini</li>
+</ul>
+<li>Auto Gen VDO โดยใช้ รูปภาพ (Image to VDO) ด้วย model "Runway Gen4 turbo"</li>
+<li>เอา model ที่ outdated แล้วทั้งของ Openai และ Gemini ออก</li>
+<li>แก้ปัญหาปุ่มลูกศรขึ้นลง เวลา review รูป หลังเจน metadata</li>
+</ol>
+
+---
+
 ### [v3.1.2](https://github.com/Pjumpod/TumTop_download/releases/tag/3.1.2) ###
 <ol>
 <li>ปรับปรุง คุณภาพ ของ description และ keywords ให้ดีขึ้น</li>
