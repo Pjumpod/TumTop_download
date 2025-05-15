@@ -136,6 +136,15 @@
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
 ---
 
+### [V4.2.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.2.0) ###
+<ol>
+<li>Auto gen image ด้วย OpenAI. (เจน PNG แบบ auto!!)</li>
+<li>Theme ใหม่ Cosmo, White, Viper และ SuperHero.</li>
+<li>แก้ปัญหา title เพี้ยน ที่ Vecteezy</li>
+<li>Model ใหม่จาก Gemini "gemini-2.5-pro-preview-05-06"</li>
+</ol>
+
+---
 
 ### [v4.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.1.0) ###
 <ol>
