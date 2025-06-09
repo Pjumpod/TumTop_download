@@ -138,8 +138,8 @@
 
 ### [V4.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.3.0) ###
 <ol>
-<li>เพิ่ม Gemini โมเดล<ul>gemini-2.5-flash-preview-04-17-thinking</ul><ul>gemini-2.5-flash-preview-05-20</ul><ul>gemini-2.5-pro-preview-06-05</ul></li>
-<li>เพิ่ม Claude โมเดล <ul>claude-opus-4-20250514</ul><ul>claude-sonnet-4-20250514</ul></li>
+<li>เพิ่ม Gemini โมเดล<ul><li>Gemini-2.5-flash-preview-04-17-thinking</li><li>Gemini-2.5-flash-05-20</li><li>Gemini-2.5-pro-06-05</li></ul></li>
+<li>เพิ่ม Claude โมเดล <ul><li>claude-opus-4-20250514</li><li>claude-sonnet-4-20250514</li></ul></li>
 <li>ลดค่าใช้จ่าย API ให้น้อยลง ในการคิด category</li>
 <li>ปรับปรุง Title/Keyword ให้ดียิ่งขึ้น</li>
 </ol>
