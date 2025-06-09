@@ -143,6 +143,7 @@
 <li>ลดค่าใช้จ่าย API ให้น้อยลง ในการคิด category</li>
 <li>ปรับปรุง Title/Keyword ให้ดียิ่งขึ้น</li>
 </ol>
+
 ---
 
 ### [V4.2.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.2.0) ###
