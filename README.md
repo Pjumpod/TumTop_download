@@ -134,6 +134,26 @@
 ---
 # Release #
 - สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
+  
+---
+
+### [V4.3.2](https://github.com/Pjumpod/TumTop_download/releases/tag/4.3.2) ###
+
+<ol>
+<li>Gemini 2.5 official model release ทั้ง flash และ pro</li>
+<li>ปรับปรุง Title/Keyword ให้ดียิ่งขึ้น</li>
+<li>เพิ่มการนับตัวอักษรในฟังชั่น key concept <ul><li>คำแนะนำ: เพื่อให้ title ที่ได้สวยงาม ควรตั้ง Title ให้ยาวกว่า key concept อย่างน้อยๆ 2 เท่า</li></ul></li>
+<li>เพิ่ม checkbox สำหรับทำให้ title และ description ไม่เหมือนกัน</li>
+</ol>
+
+---
+
+### [V4.3.1](https://github.com/Pjumpod/TumTop_download/releases/tag/4.3.1) ###
+
+<ol>
+<li>แก้ไข error message เมื่อ api key ผิด</li>
+</ol>
+
 ---
 
 ### [V4.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.3.0) ###
