@@ -137,6 +137,19 @@
   
 ---
 
+### [V4.4.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.4.0) ###
+
+<ol>
+<li>ฟังชั่น VDO Gen ของเรา สามารถใส่พร้อมพ์ได้แล้ว เราสามารถสร้าง VDO โดยใช้รูปอย่างเดียว หรือ รูป+พร้อมพ์ก็ได้</li>
+<li>เพิ่มลิ้ง เช็คสถานะ ของ Gemini API server</li>
+<li>ปรับปรุงคุณภาพของ title/keyword</li>
+<li>แก้ไขปัญหา ที่ openai ชอบค้าง</li>
+<li>ปรับปรุง UI เล็กน้อย</li>
+<li>เพิ่ม Theme ใหม่<ul><li>Chocolate</li><li>Forest</li><li>Lime</li><li>Yogurt</li></ul>
+</ol>
+
+---
+
 ### [V4.3.2](https://github.com/Pjumpod/TumTop_download/releases/tag/4.3.2) ###
 
 <ol>
