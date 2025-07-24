@@ -137,7 +137,7 @@
   
 ---
 
-### [V4.4.0](https://github.com/Pjumpod/TumTop_download/releases/tag/4.4.0) ###
+### [V4.4.1](https://github.com/Pjumpod/TumTop_download/releases/tag/4.4.1) ###
 
 <ol>
 <li>ฟังชั่น VDO Gen ของเรา สามารถใส่พร้อมพ์ได้แล้ว เราสามารถสร้าง VDO โดยใช้รูปอย่างเดียว หรือ รูป+พร้อมพ์ก็ได้</li>
