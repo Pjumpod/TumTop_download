@@ -140,6 +140,7 @@
 ### [V4.4.1](https://github.com/Pjumpod/TumTop_download/releases/tag/4.4.1) ###
 
 <ol>
+<li>เพิ่มแนวทางป้องกันปัญหา ที่อาจจะเกิดได้เวลา openai server overload<li>
 <li>ฟังชั่น VDO Gen ของเรา สามารถใส่พร้อมพ์ได้แล้ว เราสามารถสร้าง VDO โดยใช้รูปอย่างเดียว หรือ รูป+พร้อมพ์ก็ได้</li>
 <li>เพิ่มลิ้ง เช็คสถานะ ของ Gemini API server</li>
 <li>ปรับปรุงคุณภาพของ title/keyword</li>
