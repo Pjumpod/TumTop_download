@@ -125,7 +125,7 @@
 
 ---
 # Line ID #
-- Line ID : foolstop หรือ pjumpod 
+- Line ID : @tumtop
 ---
 ### ช่องทางการติดต่อ ###
 - [Facebook Fan page](https://www.facebook.com/tumtopapp) <br>
