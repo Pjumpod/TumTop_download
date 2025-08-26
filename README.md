@@ -141,14 +141,16 @@
 
 <ol>
 <li>เพิ่ม model ใหม่ของ OpenAI<ul><li>gpt-5</li><li>gpt-5-mini</li></ul><mark>GPT-5 คือ reasoning model ที่ราคาถูก แต่อย่างไรก็ตาม ราคาจะแพงกว่า gpt-4.1 เล็กน้อย แต่ถูกกว่า ตระกูล O ทั้งหลาย</mark></li>
-<li>เพิ่ม model เก่าๆของ OpenAI<ul><li>gpt-4.5-preview</li></ul></li>
+<li>ลบ model ของ OpenAI ที่ใช้งานไม่ได้แล้ว<ul><li>gpt-4.5-preview</li></ul></li>
 <li>เพิ่ม model ใหม่ของ Gemini <ul><li>gemini-2.5-flash-lite-preview-06-17</li><li>gemini-2.5-flash-lite</li></ul></li>
+<li>เพิ่มฟังชั่นการตรวจสอบตัวสะกด</li>
 <li>โปรแกรมจะจำ AI ที่ใช้งานรอบล่าสุด และ ตั้งค่าอัตโนมัตเป็น AI ตัวนั้น ในการเปิดโปรแกรมรอบถัดไป</li>
 <li>เพิ่มฟังชั่นใหม่ ปุ่ม "Runway Gen" สำหรับเจนภาพจาก Runway API</li>
 <li>เพิ่มปุ่มให้สามารถส่งผ่าน prompt ที่ได้จาก genPrompt ทั้งหมดไปที่ Runway Gen</li>
 <li>เพิ่ม Theme สำหรับ Windows<ul><li>DarkGlass</li><li>LightGlass</li><li>SunGlass</li></ul></li>
 <li>เพิ่ม style ใหม่ evening light ลงใน ReCraft Gen</li>
 <li>เปลี่ยนแปลงวิธีการแจ้งเตือน เมื่อมี version ใหม่</li>
+<li>แก้ปัญหา Runway gen VDO แล้วเจอ ERR 400 (เกิดจาก backend ของ Runway เอง มีการเปลี่ยนแปลง)</li>
 </ol>
 
 ---
