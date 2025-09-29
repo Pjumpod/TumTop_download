@@ -137,6 +137,15 @@
   
 ---
 
+### [V5.0.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.0.1) ###
+<ol>
+<li>เจอว่า VDO จากบางแอพไม่สามารถแก้ไข title/keyword แบบ manual ผ่านหน้าต่าง live ได้ <ul><li>ปรับปรุงโปรแกรมให้สามารถแก้ไขด้วยมือผ่านหน้าต่าง live ได้</li></ul></li>
+<li>ปรับปรุงการฝัง metadata ลงบน VDO ไฟล์ให้ดีขึ้นกว่าเดิม</li>
+<li>เพิ่ม Error code ใหม่ๆของ Gemini</li>
+</ol>
+
+---
+
 ### [V5.0.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.0.0) ###
 
 <ol>
