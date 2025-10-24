@@ -137,6 +137,18 @@
   
 ---
 
+### [V5.0.2](https://github.com/Pjumpod/TumTop_download/releases/tag/5.0.2) ###
+<ol>
+<li>เพิ่ม Claude Sonnet 4.5</li>
+<li>เพิ่ม Gemini 2.5 Flash preview และ Flash-Lite preview 09-2025</li>
+<li>ลบ Claude Sonnet 3.5 ออก</li>
+<li>ลบ Gemini 1.5 ออก</li>
+<li>สร้าง csv ของ 123rf</li>
+<li>ปรับปรุง Title/Keyword ให้มีผลลัพท์ที่ดียิ่งขึ้น</li>
+</ol>
+
+---
+
 ### [V5.0.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.0.1) ###
 <ol>
 <li>เจอว่า VDO จากบางแอพไม่สามารถแก้ไข title/keyword แบบ manual ผ่านหน้าต่าง live ได้ <ul><li>ปรับปรุงโปรแกรมให้สามารถแก้ไขด้วยมือผ่านหน้าต่าง live ได้</li></ul></li>
