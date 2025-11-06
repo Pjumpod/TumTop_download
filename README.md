@@ -137,6 +137,14 @@
   
 ---
 
+### [V5.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.1.0) ###
+<ol>
+<li>แก้ปัญหารันไม่ได้เนื่องจาก Security Upgrade</li>
+<li>สร้าง VDO จาก prompt ด้วย VEO3.1 จาก Gemini API </li>
+</ol>
+
+---
+
 ### [V5.0.2](https://github.com/Pjumpod/TumTop_download/releases/tag/5.0.2) ###
 <ol>
 <li>เพิ่ม Claude Sonnet 4.5</li>
