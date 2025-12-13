@@ -137,6 +137,21 @@
   
 ---
 
+### [V5.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.1.1) ###
+<ol>
+<li>สร้าง csv ของ istock</li>
+<li>เพิ่ม model ใหม่ GPT 5.1 และ GPT 5.1 TumTop</li>
+<li>เพิ่ม model ใหม่ Gemini 3.0 pro และ Gemini 3.0 TumTop</li>
+<li>เพิ่ม model ใหม่ Claude Opus 4.5</li>
+<li>ปรับปรุง Title/Keyword ให้มีผลลัพท์ที่ดียิ่งขึ้น</li>
+<li>เปลี่ยน link ของ Gemini ที่เข้าไปเช็ค TIER & Rate Limit</li>
+<li>ลบ model เก่าๆ ของ Gemini 
+<ul>gemini-2.0-flash-thinking-exp-01-21</ul><ul>gemini-2.0-flash-lite-001</ul><ul>gemini-2.0-flash-lite-preview-02-05</ul></li>
+<li>เพิ่มให้โปรแกรมรู้จัก ERROR MESSAGE ใหม่ๆของ Gemini โดยเฉพาะที่เกี่ยวกับ RPD </li>
+</ol>
+
+---
+
 ### [V5.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.1.0) ###
 <ol>
 <li>แก้ปัญหารันไม่ได้เนื่องจาก Security Upgrade</li>
