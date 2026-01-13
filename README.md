@@ -137,6 +137,21 @@
   
 ---
 
+### [V5.2.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.2.0) ###
+<ol>
+<li>สร้าง csv ของ envato</li>
+<li>เพิ่ม model ใหม่ GPT-5.2 จาก openai</li>
+<li>เพิ่ม model ใหม่ gemini-3-flash จาก Gemini</li>
+<li>แก้ปัญหาที่เจอบน GPT-5.1</li>
+<li>ฟังชั่น gen รูปด้วย OPENAI อัพเกรด model ไปใช้ gpt-image-1.5</li>
+<li>เพิ่มให้โปรแกรมรู้จัก ERROR MESSAGE ใหม่ๆของ Gemini โดยเฉพาะที่เกี่ยวกับ RPD </li>
+<li>เพิ่มความเร็วในการเปิดโปรแกรม</li>
+<li>จัดหมวดหมู่ folder ของ CSV ให้เป็นระเบียบมากขึ้น</li>
+<li>อัพเดต Tool Tip ช่องของการเลือก AI model</li>
+</ol>
+
+---
+
 ### [V5.1.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.1.1) ###
 <ol>
 <li>สร้าง csv ของ istock</li>
