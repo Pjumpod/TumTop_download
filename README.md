@@ -137,8 +137,6 @@
   
 ---
 
----
-
 ### [V5.2.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.2.1) ###
 <ol>
 ปรับปรุงการฝัง metadata ลงบน VDO ไฟล์ให้รวดเร็วและรองรับรูปแบบต่างๆมากยิ่งขึ้น
