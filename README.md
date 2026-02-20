@@ -137,6 +137,16 @@
   
 ---
 
+### [V5.2.2](https://github.com/Pjumpod/TumTop_download/releases/tag/5.2.2) ###
+<ol>
+<li>ปรับปรุงการฝัง metadata ลงบน VDO ไฟล์ให้รวดเร็วและรองรับรูปแบบต่างๆมากยิ่งขึ้น (จากเวอชั่น 5.2.1)</li>
+<li>ปรับปรุงการฝัง metadata ลงบน รูปภาพ ที่อาจจะโชว์ตัวเลข แทนที่จะเป็นตัวหนังสือ เมื่อรูปผ่าน tool บางตัว</li>
+<li>ปรับปรุงการคิด title/keyword ของ VDO</li>
+<li>เพิ่ม model ใหม่ จาก Claude Opus 4.6 จาก Claude</li>
+</ol>
+
+---
+
 ### [V5.2.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.2.1) ###
 <ol>
 ปรับปรุงการฝัง metadata ลงบน VDO ไฟล์ให้รวดเร็วและรองรับรูปแบบต่างๆมากยิ่งขึ้น
