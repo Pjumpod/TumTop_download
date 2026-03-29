@@ -137,6 +137,17 @@
   
 ---
 
+### [V5.4.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.4.0) ###
+<ol>
+<li>เพิ่ม model ใหม่ จาก OpenAI - GPT-5.3-chat และ GPT-5.4-mini</li>
+<li>เพิ่ม model GPT-5.2-tumtop</li>
+<li>เพิ่ม model ใหม่ จาก Gemini-3.1-flash-lite</li>
+<li>ปรับปรุง การค้นหา title และ keyword ให้มีความ สเถียรมากขึ้น</li>
+<li>ลบ model Sonnet 3.7 และ Sonnet 3.5 ของ Claude</li>
+<li>ลบ model chatgpt-4o-latest ของ OpenAI</li>
+<li>ลบ model gemini-2.5-flash-preview-09-2025, gemini-2.5-pro-preview-06-05 ของ Gemini</li>
+</ol>
+
 ---
 
 ### [V5.3.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.3.0) ###
