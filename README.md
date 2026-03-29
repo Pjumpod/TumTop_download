@@ -146,6 +146,7 @@
 <li>ลบ model Sonnet 3.7 และ Sonnet 3.5 ของ Claude</li>
 <li>ลบ model chatgpt-4o-latest ของ OpenAI</li>
 <li>ลบ model gemini-2.5-flash-preview-09-2025, gemini-2.5-pro-preview-06-05 ของ Gemini</li>
+<li>ปรับปรุงหน้าต่างและการทำงานของ function สร้าง VDO จาก prompt (VEO P2V)</li>
 </ol>
 
 ---
