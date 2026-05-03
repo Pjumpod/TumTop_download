@@ -137,6 +137,17 @@
   
 ---
 
+### [V5.4.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.4.1) ###
+<ol>
+<li>Editorial mode โดยจะใส่ ชื่อเมือง ประเทศและวันที่ ลงใน Title/Description ของรูป</li>
+<li>เพิ่ม model ใหม่ ใน VDO Gen ของ RunwayML gen4.5 and veo3.1_fast (แนะนำให้เช็คราคาแต่ละโมเดล จากลิ้ง Pricing บนโปรแกรม)</li>
+<li>ปิดการใช้งาน KW Analysis จนกว่าจะมีการเปลี่ยนแปลง</li>
+<li>M chip สามารถ กลับมา support Ventura (MacOS 13) ได้แล้ว</li>
+<li>Intel chip สามารถ กลับมา support Monterey (MacOS 12) ได้แล้ว</li>
+</ol>
+
+---
+
 ### [V5.4.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.4.0) ###
 <ol>
 <li>เพิ่ม model ใหม่ จาก OpenAI - GPT-5.3-chat และ GPT-5.4-mini</li>
