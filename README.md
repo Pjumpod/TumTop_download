@@ -129,11 +129,11 @@
 ---
 ### ช่องทางการติดต่อ ###
 - [Facebook Fan page](https://www.facebook.com/tumtopapp) <br>
-- [Notion](https://fan-bank-49f.notion.site/TumTop-19248f4e66e58129ac76de3dc7ca07da)
+- [Notion](https://tumtop.app)
 
 ---
 # Release #
-- สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://github.com/Pjumpod/TumTop_download/releases)
+- สามารถ ดาวโหลดโปรแกรมเวอชั่นล่าสุดได้ที่ : [ดูเวอชั่นล่าสุด](https://download.tumtop.app)
   
 ---
 
