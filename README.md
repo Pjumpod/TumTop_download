@@ -137,6 +137,19 @@
   
 ---
 
+### [V5.5.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.5.0) ###
+<ol>
+<li>แก้ไขปัญหาบางประการ ที่ฟังชั่น gen_image หรือ gen_vdo ของบางเจ้า ให้ไฟล์ที่ไม่สมบูรณ์</li>
+<li>เพิ่มโมเดล Gpt 5.5 และ Gpt 5.5 (Tumtop) จาก OpenAI</li>
+<li>เพิ่มโมเดล Gemini 3.5 flash และ Gemini 3.5 flash (Tumtop) จาก Gemini</li>
+<li>เปลี่ยน Gemini 3.1 flash lite preview เป็น Gemini 3.1 flash lite</li>
+<li>เพิ่มโมเดล Opus 4.7 และ Opus 4.8 จาก Claude</li>
+<li>เพิ่ม model V4 กับ V4.1 ลงใน Recraft Gen</li>
+<li>เพิ่มตัวเลือก model ลงใน OpenAI Gen สามารถใช้ได้ทั้ง GPT image 1.5 และ GPT image 2 (แต่ GPT Image 2 ทำ PNG ไม่ได้นะครับ)</li>
+</ol>
+
+---
+
 ### [V5.4.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.4.1) ###
 <ol>
 <li>Editorial mode โดยจะใส่ ชื่อเมือง ประเทศและวันที่ ลงใน Title/Description ของรูป (ไม่แนะนำ ถ้าจะเอารูป AI มาทำ Editorial)</li>
