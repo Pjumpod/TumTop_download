@@ -137,6 +137,7 @@
   
 ---
 
+### [V5.5.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.5.1) ###
 <ol>
 <li>ลบ obsoleted model ของ Claude <ul><li>claude-opus-4-1-20250805</li><li>claude-opus-4-20250514</li><li>claude-sonnet-4-20250514</li></ul></li>
 <li>ปรับปรุง Auto Rename ให้ฉลาดขึ้น</li>
