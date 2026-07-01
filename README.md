@@ -137,6 +137,15 @@
   
 ---
 
+<ol>
+<li>ลบ obsoleted model ของ Claude <ul><li>claude-opus-4-1-20250805</li><li>claude-opus-4-20250514</li><li>claude-sonnet-4-20250514</li></ul></li>
+<li>ปรับปรุง Auto Rename ให้ฉลาดขึ้น</li>
+<li>ปรับปรุง GUI ให้แก้ไข keyword ง่ายขึ้น</li>
+<li>ปรับปรุงคุณภาพของ keyword ให้ดียิ่งขึ้น</li>
+</ol>
+
+---
+
 ### [V5.5.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.5.0) ###
 <ol>
 <li>แก้ไขปัญหาบางประการ ที่ฟังชั่น gen_image หรือ gen_vdo ของบางเจ้า ให้ไฟล์ที่ไม่สมบูรณ์</li>
