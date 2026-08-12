@@ -137,6 +137,23 @@
   
 ---
 
+### [V5.6.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.6.0) ###
+<ol>
+<li>โมเดลใหม่จาก Claude Sonnet-5</li>
+<li>โมเดลใหม่จาก Gemini 3.6 Flash, 3.6 Flash TumTop และ 3.5 Flash Lite</li>
+<li>โมเดลใหม่จาก OpenAI 5.6 Terra, Luna และ TumTop</li>
+<li>ลบ obsoleted model ของ Gemini <ul><li>Gemini Flash 2.0</li><li>Gemini Pro 3 TumTop</li><li>Gemini Pro 3</li></ul></li>
+<li>ค่า API ของ Gemini ใช้งานได้ถูกลง 50%</li>
+<li>ส่วนของการแก้ไข keyword แบบใหม่ สามารถลาก keyword สลับตำแหน่งได้เลย</li>
+<li>แก้ไขปัญหา metadata บน png สำหรับบาง workflow</li>
+<li>แก้ปัญหาต่างๆที่ user เจอใน Editorial โหมด</li>
+<li>สามารถสลับ ไปใช้ วิธีการแก้ไข keyword แบบ เก่า ได้</li>
+<li>เพิ่มความสามารถในการ suggest เมือง ในการทำ Title แบบ Editorial ได้ โดยใส่ที่ Key Concept<ul><li>เป็นการ suggest ในกรณีรูปไม่ชัดเจนในเรื่องสถานที่ แต่ถ้ามี วัตถุใดๆที่บอกสถานที่ชัดเจนในรูป AI จะใช้สถานที่ ที่ชัดเจนในรูปนั้นๆแทน</li></ul></li>
+<li>แก้บั๊กโปรแกรมที่ค้างเป็นเวลานานเวลาไม่มี internet</li>
+</ol>
+
+---
+
 ### [V5.5.1](https://github.com/Pjumpod/TumTop_download/releases/tag/5.5.1) ###
 <ol>
 <li>ลบ obsoleted model ของ Claude <ul><li>claude-opus-4-1-20250805</li><li>claude-opus-4-20250514</li><li>claude-sonnet-4-20250514</li></ul></li>
