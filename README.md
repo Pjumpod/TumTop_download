@@ -56,12 +56,8 @@
 
 ### **สำหรับ Windows**
 
-1. ให้โหลดตัว TumTop_Windows
-2. Unzip และรอจนเสร็จสิ้น
-3. เปิดตัว TumTop.exe เพื่อรันโปรแกรมได้เลย
-   ![image](https://github.com/user-attachments/assets/bc27e6cf-d580-4042-8579-319dcf02ecc4)
+สามารถ Download ได้ที่ [ Microsoft App Store ](https://windows.tumtop.app)
 
-4. ถ้าอยากสร้าง Icon ที่หน้า Desktop ให้คลิกขวาแล้วเลือกคำสั่ง create shortcut
 ---
 ### การตั้งค่า ###
 1. จำเป็นต้องตั้งค่า ในครั้งแรกของการใช้งาน สิ่งที่ต้องเตรียมคือ API KEY และ User Secret Key (USK)
