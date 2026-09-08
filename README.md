@@ -133,6 +133,18 @@
   
 ---
 
+### [V5.6.5](https://github.com/Pjumpod/TumTop_download/releases/tag/5.6.5) ###
+<ol>
+<li>โมเดลใหม่จาก Gemini 3.7 Flash และ 3.7 Flash TumTop</li>
+<li>แก้บั๊กที่เจอ Error ตอนเปิดโปรแกรม ใน Windows ที่ได้รับ report มาจาก user บางคน</li>
+<li>โปรแกรมสามารถ แก้ปัญหาอัตโนมัติ เมื่อ ไฟล์ configure เสียหาย</li>
+<li>เพิ่ม csv สำหรับ blackbox</li>
+<li>เพิ่มความเร็วในการทำงานของปุ่ม CANCEL</li>
+<li>แก้ไข Title/Keyword ที่ได้จาก AI ให้มีประสิทธิภาพมากขึ้น</li>
+</ol>
+
+---
+
 ### [V5.6.0](https://github.com/Pjumpod/TumTop_download/releases/tag/5.6.0) ###
 <ol>
 <li>โมเดลใหม่จาก Claude Sonnet-5</li>
