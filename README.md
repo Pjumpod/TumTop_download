@@ -133,6 +133,19 @@
   
 ---
 
+### [V6.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/6.1.0) ###
+<ol>
+<li>ฟังชั่นใหม่ !! สามารถใช้งานร่วมกับ LLM จากบนเครื่องตัวเองได้</li>
+<ul>อ่านเพิ่มเติมได้ที่ https://localai.tumtop.app</ul>
+<li>GPT 6.1 และ GPT-6 ตัวล่าสุดจาก OpenAI และ GPT 6 TumTop</li>
+<li>โมเดลสร้างรูปล่าสุดของ OpenAI กลับมาสร้างพื้นหลังใสได้แล้วด้วย GPT Image 2.5</li>
+<li>Gemini 3.8 flash ตัวล่าสุดจาก Gemini</li>
+<li>Opus และ Sonnet 5.5 ตัวล่าสุดจาก Claude</li>
+<li>VDO Gen by RunWayML เพิ่ม model "gemini omni flash" และ "seedance2.5"</li>
+</ol>
+
+---
+
 ### [V5.6.5](https://github.com/Pjumpod/TumTop_download/releases/tag/5.6.5) ###
 <ol>
 <li>โมเดลใหม่จาก Gemini 3.7 Flash และ 3.7 Flash TumTop</li>
