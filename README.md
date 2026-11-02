@@ -133,6 +133,16 @@
   
 ---
 
+### [V6.1.2](https://github.com/Pjumpod/TumTop_download/releases/tag/6.1.2) ###
+<ol>
+<li>แก้ปัญหา เมื่อมีการถอดจอออก แล้วโปรแกรมไปเปิดในจอที่ถูกถอด</li>
+<li>เพิ่ม model ใหม่ ลงใน approved list ของ LLM<ul><li>Gemma 4 E4B จาก Google</li><li>Gemma 4 26B A4B จาก Google เช่นกัน</li><li>Muse Glimmer จาก Meta</li><li>Qwen3.8 27b</li></ul></li>
+<li>ปรับปรุงคุณภาพของ Title และ Keyword ที่ได้จาก AI</li>
+<li>ปรับปรุงคุณภาพของ ฟังชั่น ที่ทำให้ Title และ Description แตกต่างกัน</li>
+</ol>
+
+---
+
 ### [V6.1.0](https://github.com/Pjumpod/TumTop_download/releases/tag/6.1.0) ###
 <ol>
 <li>ฟังชั่นใหม่ !! สามารถใช้งานร่วมกับ LLM จากบนเครื่องตัวเองได้</li>
